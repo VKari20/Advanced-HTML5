@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--Unorderd list with roman numbers-->
+    <section>
+        <h2>Unordered List with Roman Numbers</h2>
+        <ol type="i">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+    </section>
+
+    <section>
+        <!--Adding an image from pexels-->
+        <h2>Image from pixels</h2>
+        <img src="https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg" alt="Scenic view" width="600">
+    </section>
+<!-- Adding a contact table -->
+<section>
+    <h2>Contact List Table</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Brian Makau</td>
+                <td>Kisumu</td>
+                <td>+254 789 900 654</td>
+                <td>brian@yahoo.com</td>
+            </tr>
+            <tr>
+                <td>David Jnr</td>
+                <td>Nairobi</td>
+                <td>+254 723 339 688</td>
+                <td>davidjnr@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Alice Wanjiru</td>
+                <td>Nyeri</td>
+                <td>+254 754 890 234</td>
+                <td>alice@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Stella Mbuthia</td>
+                <td>Nakuru</td>
+                <td>+254 789 006 324</td>
+                <td>stella34@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Emma Green</td>
+                <td>Mombasa</td>
+                <td>+254 768 534 123</td>
+                <td>emma6878@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<!--Registration Form-->
+<section>
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+        <!-- Name Field -->
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+        <!-- Email Field -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required><br><br>
+
+        <!-- Password Field -->
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter a strong password" minlength="6" required><br><br>
+
+        <!-- Date Field -->
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <!-- Dropdown -->
+        <label for="country">Country:</label><br>
+        <select id="country" name="country" required>
+            <option value="">--Select your country--</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+        </select><br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <!-- Checkboxes -->
+        <label>Interests:</label><br>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label><br>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label><br>
+        <input type="checkbox" id="travel" name="interests" value="travel">
+        <label for="travel">Travel</label><br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Register</button>
+    </form>
+</section>
+
+</body>
+</html>
